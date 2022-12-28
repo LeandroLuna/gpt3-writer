@@ -43,13 +43,13 @@ const Home = () => {
           </div>{' '}
           <div className='header-subtitle'>
             <h2>
-              Experience the power of AI - assisted writing with the Writer Assistant.Get ideas, outlines, and style suggestions from a tool that
+              Experience the power of AI - assisted writing with the Writer Assistant. Get ideas, outlines, and style suggestions from a tool that
               imitates your favorite writers.{' '}
             </h2>{' '}
           </div>{' '}
         </div>{' '}
         <div className='prompt-container'>
-          <textarea placeholder='Type here' className='prompt-box' value={userInput} onChange={onUserChangedText} />{' '}
+          <textarea placeholder='Describe your history here' className='prompt-box' value={userInput} onChange={onUserChangedText} />{' '}
         </div>{' '}
         <div className='prompt-buttons'>
           <a className={isGenerating ? 'generate-button loading' : 'generate-button'} onClick={callGenerateEndpoint}>
