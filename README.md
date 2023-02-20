@@ -24,7 +24,7 @@ This is a writer assistant project that uses the GPT-3 API to help users generat
 
 Clone the repository
 
-> git clone https://github.com/[USERNAME]/writer-assistant.git
+> git clone https://github.com/LeandroLuna/writer-assistant.git
 
 Install dependencies
 
